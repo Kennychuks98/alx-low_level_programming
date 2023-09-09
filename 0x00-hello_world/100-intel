@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Assembly code saved as '$BASENAME.s'"
