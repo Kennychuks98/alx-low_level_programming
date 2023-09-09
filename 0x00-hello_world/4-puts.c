@@ -1,11 +1,14 @@
 #include <stdio.h>
 /**
- * main - this function is the entry point of the program
- * return: Always return (0) if the program runs successfully
+ * main - Entry point
+ *
+ * Description: This is the main function that prints a message.
+ *
+ * Return: 0 upon successful execution
  */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-return (0);
+return 0;
 }
 
