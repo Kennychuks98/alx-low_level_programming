@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: print and that piece of art is useful" - Dora Korpar, 2015-10-19
+ * Description: C program that prints.
  *
  * Return: 1 upon successful execution
  */
