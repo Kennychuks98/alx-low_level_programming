@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* Description: size i\of various types on the computer.
+* Description: alphabets in lowercase except q and e.
 *
 * Return: 0 upon successful execution
 */
