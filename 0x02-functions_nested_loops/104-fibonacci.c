@@ -1,37 +1,45 @@
 #include "main.h"
 /**
-*main - Entry point
+*print_large_number - Print a large number using _putchar
+*@num: The number to print
+*
+*Description: This function prints a large number using _putchar.
+*It handles numbers up to 98 digits long.
+*/
+void print_large_number(char *num)
+{
+int i;
+for (i = 0; num[i]; i++)
+{
+_putchar(num[i]);
+}
+}
+/**
+*main - Print the first 98 Fibonacci numbers
 *
 *Return: Always 0
 */
 int main(void)
 {
+char a[100] = "1";
+char b[100] = "2";
+char result[100] = "";
 int i;
-unsigned long prev1 = 1, prev2 = 2, current;
-_putchar('1');
-_putchar(',');
-_putchar(' ');
-_putchar('2');
-for (i = 2; i < 98; i++)
+print_large_number(a);
+_putchar(','); _putchar(' ');
+for (i = 1; i < 98; i++)
 {
-current = prev1 + prev2;
-prev1 = prev2;
-prev2 = current;
-_putchar(',');
-_putchar(' ');
-print_large_number(current);
+if (i != 1)
+{
+_putchar(','); _putchar(' ');
+}
+print_large_number(b);
+strcpy(result, b);
+strcpy(b, a);
+memset(a, '0', sizeof(a));
+add_strings(a, result);
 }
 _putchar('\n');
 return (0);
-}
-/**
-*print_large_number - Prints a large number using multiple _putchar calls
-*@n: The number to print
-*/
-void print_large_number(unsigned long n)
-{
-if (n >= 10)
-print_large_number(n / 10);
-_putchar((n % 10) + '0');
 }
 
