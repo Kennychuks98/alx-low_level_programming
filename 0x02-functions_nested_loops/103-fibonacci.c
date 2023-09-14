@@ -11,7 +11,7 @@ while (a <= 4000000)
 {
 if (a % 2 == 0)
 sum += a;
-    next = a + b;
+next = a + b;
 a = b;
 b = next;
 }
