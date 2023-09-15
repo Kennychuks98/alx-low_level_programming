@@ -1,11 +1,6 @@
+/* _putchar.c */
 #include <unistd.h>
-/**
-*_putchar - Writes a character to the standard output (stdout)
-*@c: The character to be written
-*
-*Return: On success, the number of characters written is returned.
-*On error, -1 is returned, and errno is set appropriately.
-*/
+/* Definition of _putchar function */
 int _putchar(char c)
 {
 return write(1, &c, 1);
