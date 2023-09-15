@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-/* Function prototype */
-int mul(int a, int b);
+/* Function prototypes */
+int _putchar(char c);
+void print_number(int n);
 #endif /* MAIN_H */
 
