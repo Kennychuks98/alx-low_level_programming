@@ -10,7 +10,7 @@ long int sum = 0, prev = 1, curr = 2, next;
 while (curr <= 4000000)
 {
 if (curr % 2 == 0)
-sum += curr;      
+sum += curr;
 next = prev + curr;
 prev = curr;
 curr = next;
