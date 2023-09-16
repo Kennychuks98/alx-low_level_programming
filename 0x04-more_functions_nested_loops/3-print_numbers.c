@@ -1,18 +1,14 @@
 #include "main.h"
 /**
-*main - entry point
-*
-*print_numbers - prints numbers from 0 to 9
-*
-*return: 0 upon successful execution
+*print_numbers - prints the numbers from 0 to 9, followed by a new line
 */
 void print_numbers(void)
 {
-char c = '0';
-while (c <= '9')
+char digit = '0';
+while (digit <= '9')
 {
-_putchar(c);
-c++;
+_putchar(digit);
+digit++;
 }
 _putchar('\n');
 }
