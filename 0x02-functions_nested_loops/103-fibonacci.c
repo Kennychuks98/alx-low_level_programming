@@ -1,19 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 /**
 *main - Entry point
 *
-*Return: Always 0 (Success)
+*Return: Always 0
 */
 int main(void)
 {
-long int a = 1, b = 2, next, sum = 0;
-while (a <= 4000000)
+long int sum = 0, prev = 1, curr = 2, next;
+while (curr <= 4000000)
 {
-if (a % 2 == 0)
-sum += a;
-next = a + b;
-a = b;
-b = next;
+if (curr % 2 == 0)
+sum += curr;      
+next = prev + curr;
+prev = curr;
+curr = next;
 }
 printf("%ld\n", sum);
 return (0);
