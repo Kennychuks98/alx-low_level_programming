@@ -1,4 +1,11 @@
 #include <stdio.h>
+/**
+*main - Entry point
+*
+*This function prints the first 50 Fibonacci numbers separated by commas.
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 long int first = 1, second = 2, next, i;
