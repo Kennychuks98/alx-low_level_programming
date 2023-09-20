@@ -43,6 +43,8 @@ void puts2(char *str);
 /* 7-puts_half.c */
 void puts_half(char *str);
 /* 8-print_array.c */
+/* 9. function that copies the string pointed to by src to dest */
+char *_strcpy(char *dest, char *src);
 void print_array(int *a, int n);
 #endif /* MAIN_H */
 
