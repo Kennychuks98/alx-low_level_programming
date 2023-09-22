@@ -1,11 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _putchar(char c);
-/* Task 0: Function that concatenates two strings */
 char *_strcat(char *dest, char *src);
-/* Task 1: Function that concatenates two strings with n bytes from src */
 char *_strncat(char *dest, char *src, int n);
-/* Task 2: Function that copies a string up to n bytes */
+char *rot13(char *str);
+void print_number(int n);
 char *_strncpy(char *dest, char *src, int n);
+int _putchar(char c);
 #endif /* MAIN_H */
 
