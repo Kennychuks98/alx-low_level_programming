@@ -1,16 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <unistd.h>
 int _putchar(char c);
+/* Task 0: Function that concatenates two strings */
 char *_strcat(char *dest, char *src);
+/* Task 1: Function that concatenates two strings with n bytes from src */
 char *_strncat(char *dest, char *src, int n);
+/* Task 2: Function that copies a string up to n bytes */
 char *_strncpy(char *dest, char *src, int n);
-int _strcmp(char *s1, char *s2);
-void reverse_array(int *a, int n);
-char *string_toupper(char *);
-char *cap_string(char *);
-void leet(char *);
-void print_number(int n);
-char *rot13(char *s);
 #endif /* MAIN_H */
 
