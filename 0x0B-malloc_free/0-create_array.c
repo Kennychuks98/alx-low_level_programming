@@ -1,3 +1,10 @@
+/**
+*create_array - Creates an array of characters and initializes it with a specific character.
+*@size: The size of the array to create.
+*@c: The character to initialize the array with.
+*
+*Return: A pointer to the allocated array, or NULL if it fails.
+*/
 #include <stdlib.h>
 char *create_array(unsigned int size, char c)
 {
