@@ -1,5 +1,5 @@
 /**
-*create_array - Creates an array of characters and initializes specific character.
+*create_array - Creates an array of characters initializing a specific character.
 *@size: The size of the array to create.
 *@c: The character to initialize the array with.
 *
