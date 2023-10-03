@@ -4,7 +4,7 @@
 *@s1: The first string.
 *@s2: The second string.
 *
-*Return: A pointer to the newly allocated space in memory containing s1 followed by s2, or NULL on failure.
+*Return: A pointer to the allocated space in memory containing s1 followed by s2.
 */
 char *str_concat(char *s1, char *s2)
 {
