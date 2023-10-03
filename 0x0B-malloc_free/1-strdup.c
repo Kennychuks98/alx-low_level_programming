@@ -4,7 +4,7 @@
 *which contains a copy of the string given as a parameter.
 *@str: The string to duplicate.
 *
-*Return: A pointer to the duplicated string, or NULL if insufficient memory was available.
+*Return: A pointer to the duplicated string.
 */
 char *_strdup(char *str)
 {
