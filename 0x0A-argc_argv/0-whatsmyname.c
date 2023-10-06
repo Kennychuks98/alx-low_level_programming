@@ -5,9 +5,8 @@
 *Date: [Date]
 *
 *Description:
-*This program prints its own name (the name of the executable) to the standard output.
-*It uses the 'argv' array to access the program name, making it dynamic even if the
-*executable is renamed.
+*This program prints its standard output.
+*It uses the 'argv' array it dynamic.
 *
 *Usage: ./program_name
 */
